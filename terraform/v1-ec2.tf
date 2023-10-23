@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "demo-server" {
   ami = "ami-0df435f331839b2d6"
   instance_type = "t2.nano"
-  key_name = "dpp"
+  key_name = "dpp2"
   security_groups = ["allow_ssh"]
 }
 
