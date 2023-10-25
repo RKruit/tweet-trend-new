@@ -8,7 +8,7 @@ environment {
     stages {
         stage('build') {
             steps {
-                sh 'ls -l /usr/bin'
+                sh 'ls -l /usr/share/maven/bin'
                 sh 'mvn clean deploy'
             }
         }
