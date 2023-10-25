@@ -5,10 +5,6 @@ pipeline {
 
     stages {
         stage('build') {
-            agent {
-                label "maven"
-            }
-
             steps {
                 sh 'mvn clean deploy'
             }
