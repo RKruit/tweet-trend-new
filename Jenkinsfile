@@ -8,7 +8,7 @@ environment {
     stages {
         stage('build') {
             steps {
-                sh 'find / -name mvn'
+                sh 'ls -l /usr/local/bin'
                 sh 'mvn clean deploy'
             }
         }
