@@ -1,4 +1,4 @@
-ronmentpipeline {
+pipeline {
     agent {
         label "maven"
     }
